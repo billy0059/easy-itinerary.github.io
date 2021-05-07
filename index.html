@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<h1>Easy Itinerary</h1>
+<p>Please fill in the demands, we will output a customized trip itinerary for you!</p>
+
+<!--form action="/action_page.php"-->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="num_traveller">How many people in your trip?</label>
+    <input type="text" id="num_traveller" name="num_traveller" placeholder="2">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Taipei">Taipei</option>
+      <option value="Hsinchu">Hsinchu</option>
+      <option value="Tainan">Tainan</option>
+    </select>
+
+    <label for="budget">Budget</label>
+    <select id="budget" name="budget">
+      <option value="poor">0 ~ 5000</option>
+      <option value="moderate">5000 ~ 10000</option>
+      <option value="rich">10000 up</option>
+    </select>
+
+    <label for="Date">Date</label>
+    <input type="text" id='data' name="datetimes" />
+
+    <input type="submit" id="submit" value="Create Itinerary!">
+<!--/form-->
+
+<!--input type="button" value="Submit"/-->
+
+<script src="demo_script_src.js">
+</script>
+
+</body>
+</html>

@@ -1,2 +1,2 @@
-# easy-itinerary.github.io
-html test
+# easy-itinerary
+A customized travel itinerary provider
